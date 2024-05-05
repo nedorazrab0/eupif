@@ -1,0 +1,7 @@
+id=eupif
+name=euPIF
+version=v1.0
+versionCode=1
+author=nedorazrab0
+description=Provides pif.json by Xiaomi.eu for your mobile
+updateJson=https://raw.githubusercontent.com/nedorazrab0/eupif/main/update.json
