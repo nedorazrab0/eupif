@@ -1,3 +1,5 @@
-curl="$MODPATH/bin/curl"
+curl="$MODPATH/curl"
+mv -f "$MODPATH/bin/curl-$ARCH" "$curl"
+rm -rf "$MODPATH/bin/"
 chmod u+rx "$curl"
 source "$MODPATH/get_json.sh"
