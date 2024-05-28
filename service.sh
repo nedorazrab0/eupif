@@ -1,6 +1,7 @@
 MODDIR=${0%/*}
+curl="$MODDIR/bin/curl"
 
 while true; do
-    source "$MODDIR/get_json.sh" && killall -qw com.google.android.gms.unstable
-    sleep 3600
+    source "$MODDIR/get_json.sh"
+    sleep 1800
 done
